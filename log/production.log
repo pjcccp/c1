@@ -1,0 +1,6 @@
+Connecting to database specified by database.yml
+Migrating to CreateCertificates (20131018012631)
+Migrating to DeviseCreateAdminUsers (20131018012704)
+Migrating to CreateAdminNotes (20131018012708)
+Migrating to MoveAdminNotesToComments (20131018012709)
+Connecting to database specified by database.yml

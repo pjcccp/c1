@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ip_address: MyString
+  key: MyString
+  url: MyString
+  hostname: MyString
+  provider: MyString
+  city: MyString
+  state: MyString
+  country: MyString
+  latitude: MyString
+  longitude: MyString
+  dma_code: MyString
+  postal_code: MyString
+  area_code: MyString
+  gmt_offset: MyString
+  image_size: 9.99
+  cert_path: MyString
+  created_date: MyString
+  browser_type: MyString
+  browser_full_version: MyString
+  browser_major_version: MyString
+  user_agent: MyString
+  os_type: MyString
+
+two:
+  ip_address: MyString
+  key: MyString
+  url: MyString
+  hostname: MyString
+  provider: MyString
+  city: MyString
+  state: MyString
+  country: MyString
+  latitude: MyString
+  longitude: MyString
+  dma_code: MyString
+  postal_code: MyString
+  area_code: MyString
+  gmt_offset: MyString
+  image_size: 9.99
+  cert_path: MyString
+  created_date: MyString
+  browser_type: MyString
+  browser_full_version: MyString
+  browser_major_version: MyString
+  user_agent: MyString
+  os_type: MyString

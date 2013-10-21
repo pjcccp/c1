@@ -1,0 +1,32 @@
+<%= simple_form_for(@certificate) do |f| %>
+    <%= f.error_notification %>
+
+    <div class="inputs">
+      <%= f.input :ip_address %>
+      <%= f.input :unique_key %>
+      <%= f.input :referring_url %>
+      <%= f.input :hostname %>
+      <%= f.input :provider %>
+      <%= f.input :city %>
+      <%= f.input :state %>
+      <%= f.input :country, collection: country_options_for_select %>
+      <%= f.input :latitude %>
+      <%= f.input :longitude %>
+      <%= f.input :dma_code %>
+      <%= f.input :postal_code %>
+      <%= f.input :area_code %>
+      <%= f.input :gmt_offset %>
+      <%= f.input :image_size %>
+      <%= f.input :image_path %>
+      <%= f.input :created_date %>
+      <%= f.input :browser_type %>
+      <%= f.input :browser_full_version %>
+      <%= f.input :browser_major_version %>
+      <%= f.input :user_agent %>
+      <%= f.input :os_type %>
+    </div>
+
+    <div class="actions">
+      <%= f.button :submit %>
+    </div>
+<% end %>

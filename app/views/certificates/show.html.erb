@@ -1,0 +1,115 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ip address:</b>
+  <%= @certificate.ip_address %>
+</p>
+
+<p>
+  <b>Key:</b>
+  <%= @certificate.key %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @certificate.url %>
+</p>
+
+<p>
+  <b>Hostname:</b>
+  <%= @certificate.hostname %>
+</p>
+
+<p>
+  <b>Provider:</b>
+  <%= @certificate.provider %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @certificate.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @certificate.state %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @certificate.country %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @certificate.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%= @certificate.longitude %>
+</p>
+
+<p>
+  <b>Dma code:</b>
+  <%= @certificate.dma_code %>
+</p>
+
+<p>
+  <b>Postal code:</b>
+  <%= @certificate.postal_code %>
+</p>
+
+<p>
+  <b>Area code:</b>
+  <%= @certificate.area_code %>
+</p>
+
+<p>
+  <b>Gmt offset:</b>
+  <%= @certificate.gmt_offset %>
+</p>
+
+<p>
+  <b>Image size:</b>
+  <%= @certificate.image_size %>
+</p>
+
+<p>
+  <b>Cert path:</b>
+  <%= @certificate.cert_path %>
+</p>
+
+<p>
+  <b>Created date:</b>
+  <%= @certificate.created_date %>
+</p>
+
+<p>
+  <b>Browser type:</b>
+  <%= @certificate.browser_type %>
+</p>
+
+<p>
+  <b>Browser full version:</b>
+  <%= @certificate.browser_full_version %>
+</p>
+
+<p>
+  <b>Browser major version:</b>
+  <%= @certificate.browser_major_version %>
+</p>
+
+<p>
+  <b>User agent:</b>
+  <%= @certificate.user_agent %>
+</p>
+
+<p>
+  <b>Os type:</b>
+  <%= @certificate.os_type %>
+</p>
+
+
+<%= link_to 'Edit', edit_certificate_path(@certificate) %> |
+<%= link_to 'Back', certificates_path %>

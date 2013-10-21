@@ -1,0 +1,65 @@
+<h1>Listing certificates</h1>
+
+<table>
+  <tr>
+    <th>Ip address</th>
+    <th>Key</th>
+    <th>Url</th>
+    <th>Hostname</th>
+    <th>Provider</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Country</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+    <th>Dma code</th>
+    <th>Postal code</th>
+    <th>Area code</th>
+    <th>Gmt offset</th>
+    <th>Image size</th>
+    <th>Cert path</th>
+    <th>Created date</th>
+    <th>Browser type</th>
+    <th>Browser full version</th>
+    <th>Browser major version</th>
+    <th>User agent</th>
+    <th>Os type</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @certificates.each do |certificate| %>
+  <tr>
+    <td><%= certificate.ip_address %></td>
+    <td><%= certificate.key %></td>
+    <td><%= certificate.url %></td>
+    <td><%= certificate.hostname %></td>
+    <td><%= certificate.provider %></td>
+    <td><%= certificate.city %></td>
+    <td><%= certificate.state %></td>
+    <td><%= certificate.country %></td>
+    <td><%= certificate.latitude %></td>
+    <td><%= certificate.longitude %></td>
+    <td><%= certificate.dma_code %></td>
+    <td><%= certificate.postal_code %></td>
+    <td><%= certificate.area_code %></td>
+    <td><%= certificate.gmt_offset %></td>
+    <td><%= certificate.image_size %></td>
+    <td><%= certificate.cert_path  %></td>
+    <td><%= certificate.created_date %></td>
+    <td><%= certificate.browser_type %></td>
+    <td><%= certificate.browser_full_version %></td>
+    <td><%= certificate.browser_major_version %></td>
+    <td><%= certificate.user_agent %></td>
+    <td><%= certificate.os_type %></td>
+    <td><%= link_to 'Show', certificate %></td>
+    <td><%= link_to 'Edit', edit_certificate_path(certificate) %></td>
+    <td><%= link_to 'Destroy', certificate, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Certificate', new_certificate_path %>
